@@ -5,8 +5,9 @@ using namespace std;
 // L-704
 int binarySearch(vector<int> &v, int target)
 {
-    int si = 0;                  // start index
-    int ei = v.size() - 1;       // end index
+    int si = 0;            // start index
+    int ei = v.size() - 1; // end index
+    // int mi = (si + ei) /2; // integer overflow
     int mi = si + (ei - si) / 2; // mid index
 
     while (si <= ei)
