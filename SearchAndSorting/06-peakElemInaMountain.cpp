@@ -15,7 +15,7 @@ int peakIndexInMountain(vector<int> &arr)
             // update si
             si = mi + 1;
         }
-        else
+        else // arr[mi] >= arr[mi+1]
         {
             // can be at peak or at right part
 
