@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//LC-345
 bool isVowels(char ch)
 {
     ch = tolower(ch);

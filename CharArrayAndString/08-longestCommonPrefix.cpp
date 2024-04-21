@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//LC -14
 string longestCommonPrefix(vector<string> &strs)
 {
     int i = 0;
